@@ -13,6 +13,7 @@ body {
   --brand-color-white: #fff;
   --brand-color-black: #000;
   --projects-gallery-color: #eeeeee;
+  --parent-color: currentColor;
 }
 h1,
 h2,
@@ -79,10 +80,11 @@ figure {
 }
 .contact-details {
   color: var(--description-color);
+  display: flex;
+  align-items: center;
 }
 .contact-icon {
-  fill: #757575;
-  stroke: #757575;
+  margin-right: 10px;
 }
 .link-selected:hover,
 .link-selected:focus,
