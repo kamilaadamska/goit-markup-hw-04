@@ -156,6 +156,16 @@ figure {
   text-transform: uppercase;
   color: var(--header-color);
 }
+.what-we-do-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--section-light-color);
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
 .header-secondary {
   font-size: 36px;
   text-align: center;
