@@ -93,7 +93,12 @@ figure {
 }
 /* HERO */
 .hero {
-  background: var(--section-dark-color);
+  background-color: var(--section-dark-color);
+}
+.background-photo {
+  width: 1600px;
+  margin: 0 auto;
+  background-image: url('../images/hero_background.jpg');
 }
 .header-primary {
   font-weight: 900;
