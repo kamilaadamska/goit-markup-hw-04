@@ -80,6 +80,10 @@ figure {
 .contact-details {
   color: var(--description-color);
 }
+.contact-icon {
+  fill: #757575;
+  stroke: #757575;
+}
 .link-selected:hover,
 .link-selected:focus,
 .footer-address:hover,
@@ -99,6 +103,8 @@ figure {
   width: 1600px;
   margin: 0 auto;
   background-image: linear-gradient(#2f303a66, #2f303a66), url('../images/hero_background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .header-primary {
   font-weight: 900;
