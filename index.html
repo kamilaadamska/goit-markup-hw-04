@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-border">
+      <div class="container header-box">
+        <div class="left-nav-box">
+          <a class="link logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
+          <nav>
+            <ul class="header-menu">
+              <li><a class="link link-selected" href="#">Agencja</a></li>
+              <li><a class="link link-selected" href="portfolio.html">Portfolio</a></li>
+              <li><a class="link link-selected" href="#contact">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="header-contact-menu">
+            <li>
+              <a class="link link-selected contact-details" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link link-selected contact-details" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-box">
+          <h1 class="header-primary">Efektywne rozwiązania dla waszego biznesu</h1>
+          <button class="main-button" type="button">Zamów usługę</button>
+        </div>
+      </section>
+      <!-- What we do -->
+      <section class="section">
+        <div class="container">
+          <ul class="what-we-do-list">
+            <li>
+              <span>Lorem ipsum</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <span>Lorem ipsum</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <span>Lorem ipsum</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <span>Lorem ipsum</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+          <h2 class="header-secondary">Czym się zajmujemy</h2>
+          <ul class="what-we-do-gallery">
+            <li>
+              <img
+                src="images/what_we_do/coding.jpg"
+                alt="Dłonie piszące kod na klawiaturze"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/what_we_do/designing_for_smartphone.jpg"
+                alt="Osoba projektuje stronę lub aplikację na smartfony"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="images/what_we_do/choosing_colors.jpg"
+                alt="Ktoś wybiera kolory z palety widocznej na tablecie"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Our team -->
+      <section class="our-team section">
+        <div class="container">
+          <h2 class="header-secondary">Nasz zespół</h2>
+          <ul class="our-team-photos">
+            <li>
+              <figure class="team-card">
+                <img
+                  src="images/our_team/product_designer.jpg"
+                  alt="Zdjęcie product designera"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <span>Product Designer</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="team-card">
+                <img
+                  src="images/our_team/frontend_developer.jpg"
+                  alt="Zdjęcie frontend developera"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>Jane Doe</h3>
+                  <span>Frontend Developer</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="team-card">
+                <img
+                  src="images/our_team/marketing.jpg"
+                  alt="Zdjęcie marketingowca"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <span>Marketing</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="team-card">
+                <img
+                  src="images/our_team/ui_designer.jpg"
+                  alt="Zdjęcie UI designera"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3>John Doe</h3>
+                  <span>UI Designer</span>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-color">
+      <div class="container footer-box">
+        <a class="link logo footer-logo" href="index.html"
+          ><span class="logo-color">Web</span>Studio</a
+        >
+        <address id="contact">
+          <ul class="address-list">
+            <li>
+              <a
+                class="link footer-address"
+                href="https://goo.gl/maps/5vognSmDPYiszCNh9"
+                target="_blank"
+                >m. Warszawa, Aleje Jerozolimskie 21</a
+              >
+            </li>
+            <li>
+              <a class="link footer-address footer-contact-details" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="link footer-address footer-contact-details" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
