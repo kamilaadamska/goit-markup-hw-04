@@ -103,7 +103,7 @@ figure {
   background-color: var(--section-dark-color);
 }
 .background-photo {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   background-image: linear-gradient(#2f303a66, #2f303a66), url('../images/hero_background.jpg');
   background-position: center;
