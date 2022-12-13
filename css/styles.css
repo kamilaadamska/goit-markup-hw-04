@@ -175,10 +175,13 @@ figure {
 }
 .what-we-do-gallery,
 .our-team-photos,
-.projects-gallery {
+.projects-gallery,
+.our-clients {
   list-style-type: none;
   display: flex;
   gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 /* Our team */
 .our-team-photos h3 {
@@ -234,6 +237,13 @@ figure {
 }
 .our-team {
   background-color: var(--section-light-color);
+}
+/* Our clients */
+.our-clients-frames {
+  border: 1px solid var(--social-media);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
 }
 /* Footer styles */
 .footer-color {
