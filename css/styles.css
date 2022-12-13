@@ -210,6 +210,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
 }
 .social-media-icon:hover,
 .social-media-icon:focus {
@@ -240,6 +241,9 @@ figure {
 .footer-box {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
 }
 .footer-logo {
   color: var(--brand-color-white);
@@ -260,6 +264,24 @@ figure {
 }
 .footer-contact-details {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-sm-header {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color-white);
+  display: block;
+}
+.footer-social-media {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  color: var(--brand-color-white);
+}
+.footer-icon-color {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 /* PORTFOLIO main */
 .buttons-list {
