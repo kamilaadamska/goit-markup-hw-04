@@ -211,7 +211,8 @@ figure {
   align-items: center;
   justify-content: center;
 }
-.social-media-icon:hover {
+.social-media-icon:hover,
+.social-media-icon:focus {
   background-color: var(--selection-color);
   border-radius: 50%;
   color: var(--brand-color-white);
