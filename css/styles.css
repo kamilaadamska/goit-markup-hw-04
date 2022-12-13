@@ -217,6 +217,7 @@ figure {
   background-color: var(--selection-color);
   border-radius: 50%;
   color: var(--brand-color-white);
+  cursor: pointer;
 }
 .team-card {
   background: var(--brand-color-white);
