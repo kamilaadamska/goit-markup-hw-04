@@ -244,6 +244,13 @@ figure {
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  color: var(--social-media);
+}
+.our-clients-frames:hover,
+.our-clients-frames:focus {
+  border: 1px solid var(--selection-color);
+  cursor: pointer;
+  color: var(--selection-color);
 }
 /* Footer styles */
 .footer-color {
