@@ -14,6 +14,7 @@ body {
   --brand-color-black: #000;
   --projects-gallery-color: #eeeeee;
   --parent-color: currentColor;
+  --social-media: #afb1b8;
 }
 h1,
 h2,
@@ -192,6 +193,28 @@ figure {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--description-color);
+  display: block;
+}
+.social-media {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+  color: var(--social-media);
+}
+.social-media-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-icon:hover {
+  background-color: var(--selection-color);
+  border-radius: 50%;
+  color: var(--brand-color-white);
 }
 .team-card {
   background: var(--brand-color-white);
