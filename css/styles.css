@@ -98,9 +98,6 @@ figure {
   padding-bottom: 94px;
 }
 /* HERO */
-.hero {
-  background-color: var(--section-dark-color);
-}
 .background-photo {
   max-width: 1600px;
   margin: 0 auto;
